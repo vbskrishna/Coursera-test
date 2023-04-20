@@ -1,0 +1,43 @@
+button{
+    margin-right: 10px;
+}
+
+.navbar-brand{
+    font-size: 1.8em;
+    padding: 10px;
+}
+
+.nav-item{
+    /* background-color: #2C3333; */
+    background-color: #454545;;
+}
+
+.nav-item:hover{
+    background-color: #ffffff;   
+}
+
+.nav-item:hover a{
+    color: #212529;
+}
+
+.heading{
+    padding: 30px;
+}
+
+.main-content{
+    background-color: #FFE6C7;
+    padding: 20px;
+}
+
+.head{
+    padding: 20px;
+}
+
+@media (max-width: 576px )
+{
+    .col-12{
+        width:100%;
+        margin-left: 5px;
+        margin-right: 15px;
+    }
+}
